@@ -1,0 +1,13 @@
+# Operating System & IDE artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*~
+
+# Developer & Environment files
+.vscode/
+.idea/
+*.log
+.env
+.env.local

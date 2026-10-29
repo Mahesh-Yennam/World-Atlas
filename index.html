@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFQ8M0VSFN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-RFQ8M0VSFN');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Countries Atlas — Gamility Explorer</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Explore world geography with the interactive World Countries Atlas. Detailed country dossiers, national flags, capitals, population metrics, currencies, live timezones, and geographic comparisons.">
+  <meta name="keywords" content="world atlas, country facts, world capitals, national flags, country comparison, geography quiz, population statistics, timezones">
+  <meta name="author" content="Gamility">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://mahesh-yennam.github.io/World-Atlas/">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mahesh-yennam.github.io/World-Atlas/">
+  <meta property="og:title" content="The Global Sphere: World Countries Atlas — Gamility Explorer">
+  <meta property="og:description" content="Explore world geography with the interactive World Countries Atlas. Detailed country dossiers, national flags, capitals, population metrics, currencies, live timezones, and geographic comparisons.">
+  <meta property="og:image" content="https://mahesh-yennam.github.io/World-Atlas/preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="The Global Sphere: World Countries Atlas — Gamility Explorer">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://mahesh-yennam.github.io/World-Atlas/">
+  <meta name="twitter:title" content="The Global Sphere: World Countries Atlas — Gamility Explorer">
+  <meta name="twitter:description" content="Explore world geography with the interactive World Countries Atlas. Detailed country dossiers, national flags, capitals, population metrics, currencies, live timezones, and geographic comparisons.">
+  <meta name="twitter:image" content="https://mahesh-yennam.github.io/World-Atlas/preview.png">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#00e5ff">
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "The Global Sphere: World Countries Atlas",
+    "url": "https://mahesh-yennam.github.io/World-Atlas/",
+    "description": "Interactive planetary geopolitical atlas with flags, capitals, populations, currencies, languages, timezones, and geographic comparisons.",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "All"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- =========================================================================
+       TOP RETURN NAVIGATION RIBBON
+       ========================================================================= -->
+  <header class="app-top-nav">
+    <div class="nav-container">
+      <a href="https://mahesh-yennam.github.io/Gamility/" class="nav-brand" aria-label="Gamility Home">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4-3c-.83 0-1.5-.67-1.5-1.5S18.67 9 19.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+          </svg>
+        </div>
+        <span class="brand-text">Gami<span>lity</span> <small class="brand-sub">Explorer</small></span>
+      </a>
+
+      <div class="nav-actions">
+        <a href="https://mahesh-yennam.github.io/Gamility/explorer.html" class="nav-back-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+          <span>Back to Explorer Hub</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       HERO BANNER
+       ========================================================================= -->
+  <section class="hero-banner">
+    <div class="container">
+      <div class="hero-pill">
+        <span class="pill-icon">🗺️</span> Planetary Geopolitical Archive
+      </div>
+      <h1 class="hero-title">
+        The Global Sphere: <span class="gradient-text">World Countries Atlas</span>
+      </h1>
+      <p class="hero-desc">
+        Discover official sovereign nations across all continents. Explore national flags, capitals, currencies, languages, real-time local timezone clocks, and multi-nation statistical comparisons.
+      </p>
+
+      <!-- Quick Platform Counters -->
+      <div class="hero-stats-strip">
+        <div class="stat-bubble">
+          <span class="stat-num" id="statCountriesCount">50</span>
+          <span class="stat-lbl">Nations Curated</span>
+        </div>
+        <div class="stat-bubble">
+          <span class="stat-num">6</span>
+          <span class="stat-lbl">Continents</span>
+        </div>
+        <div class="stat-bubble">
+          <span class="stat-num">100%</span>
+          <span class="stat-lbl">Vector Flags</span>
+        </div>
+        <div class="stat-bubble">
+          <span class="stat-num">Live</span>
+          <span class="stat-lbl">World Clocks</span>
+        </div>
+      </div>
+
+      <!-- App Mode Switcher -->
+      <nav class="mode-tabs-nav" aria-label="Atlas Modes">
+        <button type="button" class="mode-tab-btn active" data-view="gallery">
+          <span class="tab-icon">🗂️</span> Countries Catalog
+        </button>
+        <button type="button" class="mode-tab-btn" data-view="compare">
+          <span class="tab-icon">⚖️</span> Nations Comparator <span class="compare-counter-badge" id="compareCountBadge">0</span>
+        </button>
+        <button type="button" class="mode-tab-btn" data-view="quiz">
+          <span class="tab-icon">🧠</span> Geography Quiz Master
+        </button>
+        <button type="button" class="mode-tab-btn random-btn" id="randomCountryBtn">
+          <span class="tab-icon">🎲</span> Mystery Discovery
+        </button>
+      </nav>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       MAIN CONTENT CONTAINER
+       ========================================================================= -->
+  <main class="container main-content-wrapper">
+
+    <!-- VIEW 1: COUNTRIES CATALOG / GALLERY -->
+    <section class="app-view active" id="view-gallery">
+      
+      <!-- Filter & Search Toolbar -->
+      <div class="filter-toolbar-card">
+        <div class="search-and-presets-row">
+          <div class="search-input-wrapper">
+            <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input 
+              type="search" 
+              id="countrySearchInput" 
+              class="country-search-input" 
+              placeholder="Search by country name, capital, currency, language, or ISO code..."
+              aria-label="Search countries"
+            >
+            <button type="button" class="clear-search-btn" id="clearSearchBtn" aria-label="Clear search text">&times;</button>
+          </div>
+
+          <!-- Unit Toggle (Metric km² vs Imperial sq mi) -->
+          <div class="unit-system-toggle" role="group" aria-label="Area Units">
+            <button type="button" class="unit-btn active" data-unit="metric">Metric (km²)</button>
+            <button type="button" class="unit-btn" data-unit="imperial">Imperial (sq mi)</button>
+          </div>
+        </div>
+
+        <!-- Continent Filter Chips -->
+        <div class="continents-filter-row">
+          <span class="filter-label">Continent:</span>
+          <div class="continent-chips-group" id="continentChipsGroup" role="tablist">
+            <button type="button" class="continent-chip active" data-continent="all">🌐 All Continents</button>
+            <button type="button" class="continent-chip" data-continent="Africa">🌍 Africa</button>
+            <button type="button" class="continent-chip" data-continent="Americas">🌎 Americas</button>
+            <button type="button" class="continent-chip" data-continent="Asia">🌏 Asia</button>
+            <button type="button" class="continent-chip" data-continent="Europe">🏰 Europe</button>
+            <button type="button" class="continent-chip" data-continent="Oceania">🏝️ Oceania</button>
+          </div>
+        </div>
+
+        <!-- Secondary Dropdown Filters -->
+        <div class="secondary-filters-row">
+          <!-- Population Tier Filter -->
+          <div class="filter-field">
+            <label for="popFilterSelect">Population Tier:</label>
+            <select id="popFilterSelect" class="filter-select">
+              <option value="all">All Populations</option>
+              <option value="mega">Mega (> 100 Million)</option>
+              <option value="large">Large (25M – 100M)</option>
+              <option value="medium">Medium (5M – 25M)</option>
+              <option value="small">Small (< 5 Million)</option>
+            </select>
+          </div>
+
+          <!-- Currency Filter -->
+          <div class="filter-field">
+            <label for="currencyFilterSelect">Currency Zone:</label>
+            <select id="currencyFilterSelect" class="filter-select">
+              <option value="all">All Currencies</option>
+              <option value="USD">USD ($)</option>
+              <option value="EUR">Euro (€)</option>
+              <option value="GBP">Pound (£)</option>
+              <option value="JPY">Yen (¥)</option>
+              <option value="INR">Rupee (₹)</option>
+              <option value="OTHER">Other National</option>
+            </select>
+          </div>
+
+          <!-- Sort Sorter -->
+          <div class="filter-field">
+            <label for="sortFilterSelect">Sort By:</label>
+            <select id="sortFilterSelect" class="filter-select">
+              <option value="name-asc">Alphabetical (A → Z)</option>
+              <option value="name-desc">Alphabetical (Z → A)</option>
+              <option value="pop-desc">Population (Highest first)</option>
+              <option value="pop-asc">Population (Lowest first)</option>
+              <option value="area-desc">Land Area (Largest first)</option>
+              <option value="area-asc">Land Area (Smallest first)</option>
+              <option value="density-desc">Density (Crowded first)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gallery Meta Info Bar -->
+      <div class="gallery-status-bar">
+        <div class="results-tally">
+          Showing <span id="displayedCount" class="highlight-count">50</span> of <span id="totalCountriesCount">50</span> sovereign nations
+        </div>
+        <button type="button" class="reset-filters-btn" id="resetFiltersBtn">Reset All Filters</button>
+      </div>
+
+      <!-- Countries Cards Grid -->
+      <div class="countries-grid" id="countriesGrid" role="region" aria-label="World Countries Catalog">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+
+      <!-- Empty State for Zero Search Results -->
+      <div class="empty-results-card hidden" id="emptyResultsCard">
+        <div class="empty-icon">🧭</div>
+        <h3>No matching countries found</h3>
+        <p>Try searching with another spelling, capital city, currency code, or reset your continent filter.</p>
+        <button type="button" class="btn btn-primary" id="emptyResetBtn">Reset Search & Filters</button>
+      </div>
+    </section>
+
+    <!-- VIEW 2: NATIONS COMPARATOR -->
+    <section class="app-view hidden" id="view-compare">
+      <div class="comparator-header-card">
+        <div class="comp-badge">⚖️ Head-to-Head Analytics</div>
+        <h2>Sovereign Nations Comparator</h2>
+        <p>Select up to 3 countries side-by-side to benchmark populations, territorial sizes, population densities, financial currencies, and live local times.</p>
+      </div>
+
+      <!-- Quick Country Picker Dropdowns for Comparator -->
+      <div class="comparator-pickers-strip">
+        <div class="picker-slot">
+          <label for="compSelect1">Slot 1 Country:</label>
+          <select id="compSelect1" class="filter-select">
+            <option value="">-- Choose Country 1 --</option>
+          </select>
+        </div>
+        <div class="picker-slot">
+          <label for="compSelect2">Slot 2 Country:</label>
+          <select id="compSelect2" class="filter-select">
+            <option value="">-- Choose Country 2 --</option>
+          </select>
+        </div>
+        <div class="picker-slot">
+          <label for="compSelect3">Slot 3 Country:</label>
+          <select id="compSelect3" class="filter-select">
+            <option value="">-- Choose Country 3 --</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Comparator Results Grid Container -->
+      <div class="comparator-matrix-wrapper" id="comparatorMatrix">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- VIEW 3: GEOGRAPHY QUIZ MASTER -->
+    <section class="app-view hidden" id="view-quiz">
+      <div class="quiz-container-card">
+        <div class="quiz-header">
+          <div class="quiz-title-area">
+            <span class="quiz-badge">🧠 World Challenge</span>
+            <h2>Geography Quiz Master</h2>
+            <p>Test your knowledge on world capitals, national flags, and continental geography!</p>
+          </div>
+          <div class="quiz-streak-pill">
+            <span class="streak-icon">🔥</span> Streak: <strong id="quizStreak">0</strong> | Score: <strong id="quizScore">0</strong>
+          </div>
+        </div>
+
+        <!-- Active Question Box -->
+        <div class="quiz-question-box" id="quizQuestionBox">
+          <div class="quiz-meta-row">
+            <span class="question-count" id="quizQuestionCount">Question 1 of 5</span>
+            <span class="question-type-badge" id="quizTypeBadge">Capital City</span>
+          </div>
+
+          <div class="quiz-prompt-area" id="quizPromptArea">
+            <!-- Rendered dynamically -->
+          </div>
+
+          <div class="quiz-options-grid" id="quizOptionsGrid">
+            <!-- 4 Option buttons rendered dynamically -->
+          </div>
+
+          <div class="quiz-feedback-box hidden" id="quizFeedbackBox">
+            <div class="feedback-msg" id="quizFeedbackMsg"></div>
+            <button type="button" class="btn btn-primary" id="quizNextBtn">Next Question →</button>
+          </div>
+        </div>
+
+        <!-- Quiz Finished Card -->
+        <div class="quiz-finished-card hidden" id="quizFinishedCard">
+          <div class="finish-trophy" id="quizFinishTrophy">🏆</div>
+          <h3 id="quizFinishTitle">Atlas Masterclass Complete!</h3>
+          <p id="quizFinishSubtitle">You scored <strong id="quizFinalScore">0</strong> out of 5!</p>
+          <div class="finish-buttons">
+            <button type="button" class="btn btn-primary" id="quizRestartBtn">Play Another Round ↺</button>
+            <button type="button" class="btn btn-secondary" id="quizReturnGalleryBtn">Return to Countries Catalog</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       COUNTRY DEEP-DIVE DOSSIER MODAL
+       ========================================================================= -->
+  <div class="modal-backdrop" id="countryModalBackdrop" aria-hidden="true">
+    <div class="modal-dialog country-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalCommonName">
+      <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal window">&times;</button>
+
+      <div class="modal-dossier-content" id="modalDossierContent">
+        <!-- Injected dynamically by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       FLOATING COMPARISON DOCK (Bottom Bar)
+       ========================================================================= -->
+  <aside class="compare-dock hidden" id="compareDock" aria-label="Country Comparison Dock">
+    <div class="container dock-inner">
+      <div class="dock-left">
+        <span class="dock-badge">⚖️</span>
+        <span class="dock-text">Comparing <strong id="dockCount">0</strong> / 3 nations</span>
+        <div class="dock-chips" id="dockChips"></div>
+      </div>
+      <div class="dock-actions">
+        <button type="button" class="btn btn-sm btn-secondary" id="dockClearBtn">Clear</button>
+        <button type="button" class="btn btn-sm btn-primary" id="dockLaunchBtn">Compare Now →</button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="app-footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <div class="footer-brand">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4-3c-.83 0-1.5-.67-1.5-1.5S18.67 9 19.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+          </svg>
+          <span>Gamility <strong>Explorer</strong></span>
+        </div>
+        <p class="footer-copyright">
+          © 2026 Gamility. All rights reserved. Flag vectors served via public domain FlagCDN with emoji fallbacks.
+        </p>
+      </div>
+      <div class="footer-links">
+        <a href="https://mahesh-yennam.github.io/Gamility/">Portal Home</a>
+        <a href="https://mahesh-yennam.github.io/Gamility/explorer.html">Explorer Hub</a>
+        <a href="https://mahesh-yennam.github.io/Gamility/explorer/animal-encyclopedia/index.html">Animal Encyclopedia</a>
+        <a href="https://mahesh-yennam.github.io/Gamility/tools.html">Utility Tools</a>
+        <a href="https://mahesh-yennam.github.io/Gamility/games.html">Arcade Games</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>

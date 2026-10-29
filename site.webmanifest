@@ -1,0 +1,17 @@
+{
+  "name": "The Global Sphere: World Countries Atlas",
+  "short_name": "World Atlas",
+  "description": "Interactive planetary geopolitical atlas with flags, capitals, populations, currencies, languages, timezones, and geographic comparisons.",
+  "start_url": "https://mahesh-yennam.github.io/World-Atlas/",
+  "scope": "https://mahesh-yennam.github.io/World-Atlas/",
+  "display": "standalone",
+  "background_color": "#0b132b",
+  "theme_color": "#00e5ff",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
